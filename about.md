@@ -1,25 +1,24 @@
 ---
 layout: page
 permalink: /about/index.html
-title: About the Jekyll Theme
-tags: [Jekyll, theme, themes, simple, minimal, minimalism, responsive]
-image:
-  feature: so-simple-sample-image-4.jpg
+title: About
+tags: [blowing,my,own,trumpet]
+colorbar: accent
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes).
+Oblongmana.com is the home of James Hill, currently working as a developer for
+<a href="http://www.trineo.co.nz" target="_blank">Trineo</a>, and hacking at things 
+in his spare time: like getting this site functioning.
 
-## So Simple Theme is all about:
+Interests include:
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments and subtle animations. 
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Disqus comments if you choose to enable.
-* Simple and clear permalink structure[^1].
-* Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
-
-[^1]: Example: *domain.com/category-name/post-title*
+* Speaking in the third person (not really)
+* Wearable tech
+* Home automation
+* Salesforce.com development
+* Heroku development (pt. using Flask)
+* Shiny web apps generally (and the less shiny APIs they expose)
+* Shiny things generally
+* Stuff and things
+* Long walks to the office
+* Staying out of the rain

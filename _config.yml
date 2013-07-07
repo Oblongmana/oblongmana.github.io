@@ -1,30 +1,27 @@
 title:            Oblongmana
 description:      Making pancakes. Making bacon pancakes.
 logo:             site-logo.png
-disqus_shortname: sosimpletheme
+disqus_shortname: oblongmana
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://mmistakes.github.io/so-simple-theme
+url:              http://oblongmana.com
 
 # Owner/author information
 owner:
-  name:           Michael Rose
-  avatar:         michael-rose-photo.jpg
-  email:          michael@mademistakes.com
+  name:           James Hill
+  avatar:         0ca116552960ee81fc5d01a6cfab2705.png
+  email:          Oblongmana@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        "mmistakes"
-  facebook:       "michaelrose"
-  github:         "mmistakes"
-  linkedin:       "michaelrose"
-  instagram:      "mmistakes"
-  tumblr:         "mademistakes"
+  twitter:        "oblongmana"
+  github:         "oblongmana"
+  linkedin:       "jameshillnz"
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/118238196859537351707"
+  #google_plus:    "https://plus.google.com/115372416252891351149"
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-2011187-2
-google_verify:      UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
+google_analytics:   UA-42284973-1
+google_verify:      lhFALdqslbVT035aD2czmncrp2vFj9MFIDqyPaS6UCk
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD   
+#bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD   
 
 # Links to include in top navigation
 # For external links add external: true
@@ -33,14 +30,14 @@ links:
     url: /about
   - title: Articles
     url: /articles
-  - title: Theme Setup
-    url: /theme-setup
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  # - title: Theme Setup
+  #   url: /theme-setup
+  # - title: Made Mistakes
+  #   url: http://mademistakes.com
+  #   external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Pacific/Auckland
 future:      true
 pygments:    true
 markdown:    kramdown
