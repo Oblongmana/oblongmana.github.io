@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="256"
+   height="256"
+   id="svg2">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient5384">
+      <stop
+         id="stop5386"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop5388"
+         style="stop-color:#ffff00;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5356">
+      <stop
+         id="stop5358"
+         style="stop-color:#051eff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop5360"
+         style="stop-color:#051eff;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5342">
+      <stop
+         id="stop5344"
+         style="stop-color:#051eff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop5346"
+         style="stop-color:#08ff61;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5326">
+      <stop
+         id="stop5328"
+         style="stop-color:#08ff61;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop5334"
+         style="stop-color:#08ff61;stop-opacity:0.49803922"
+         offset="1" />
+      <stop
+         id="stop5330"
+         style="stop-color:#08ff61;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5308">
+      <stop
+         id="stop5320"
+         style="stop-color:#0000ff;stop-opacity:0.49803922"
+         offset="0" />
+      <stop
+         id="stop5324"
+         style="stop-color:#0000ff;stop-opacity:0.24705882"
+         offset="1" />
+      <stop
+         id="stop5312"
+         style="stop-color:#0000ff;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3844">
+      <stop
+         id="stop3850"
+         style="stop-color:#000000;stop-opacity:0.49803922"
+         offset="0" />
+      <stop
+         id="stop3848"
+         style="stop-color:#000000;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-28.373996,-317.02937)"
+     id="layer1">
+    <rect
+       width="256.27478"
+       height="256.06317"
+       rx="69.88443"
+       ry="70.024284"
+       x="28.373997"
+       y="317.03467"
+       id="rect3163"
+       style="fill:#000000;fill-opacity:1" />
+    <g
+       transform="matrix(0.64028992,0,0,0.64028992,5.0840933,153.64529)"
+       id="g5617">
+      <rect
+         width="20.926851"
+         height="33.858467"
+         rx="2.9467995"
+         ry="3.1288347"
+         x="108.4318"
+         y="437.65182"
+         id="rect5430"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         width="34.207355"
+         height="55.345577"
+         rx="4.8168845"
+         ry="5.1144423"
+         x="146.46834"
+         y="426.95239"
+         id="rect5534"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         width="55.196152"
+         height="89.30426"
+         rx="7.7724061"
+         ry="8.2525387"
+         x="199.19984"
+         y="410.61877"
+         id="rect5536"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         width="89.219978"
+         height="144.35291"
+         rx="12.563447"
+         ry="13.339541"
+         x="273.58899"
+         y="382.44794"
+         id="rect5562"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+  </g>
+</svg>
