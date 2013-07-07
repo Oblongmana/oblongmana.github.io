@@ -3,7 +3,7 @@ layout: post
 title: "Pretty PageMessages"
 description: "A custom framework for use in Visualforce pages/controllers to replace the default system and styling"
 category: articles
-tags: [salesforce,visualforce,bootstrap,css,pagemessage,pagemessages]
+tags: [salesforce, visualforce, pagemessages, bootstrap, css]
 colorbar: salesforce
 comments: true
 ---
