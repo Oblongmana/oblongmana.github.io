@@ -651,7 +651,8 @@ hr.colorbar-accent {
 }
 span.vertbar {
   display: inline;
-  border-left: 4px solid;
+  border-left: 6px solid;
+  padding-right: 5px;
 }
 span.vertbar.colorbar-salesforce {
   border-left-color: #159cdc;
@@ -2512,7 +2513,7 @@ body {
 .navigation-wrapper ul {
   display: inline-block;
   vertical-align: top;
-  margin: 0 0 50px;
+  margin: 0 0 20px;
   padding: 4px 20px;
   background-color: #000000;
   -webkit-border-radius: 0 0 10px 10px;
@@ -2656,6 +2657,7 @@ body {
   }
 }
 .site-title {
+  margin-top: 5px;
   margin-bottom: 0;
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
@@ -2671,6 +2673,7 @@ body {
 }
 .site-description {
   margin-top: 0;
+  margin-bottom: 5px;
   font-family: 'volkorn', serif;
   font-size: 16px;
   font-size: 1rem;
@@ -2900,6 +2903,7 @@ span + .entry-title {
 #page .entry-title {
   text-align: center;
   max-width: 100%;
+  margin-bottom: 15px;
 }
 @media only screen and (min-width: 62.5em) {
   #home .entry-content,
