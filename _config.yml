@@ -3,7 +3,7 @@ description:      Making pancakes. Making bacon pancakes.
 logo:             site-logo.png
 disqus_shortname: oblongmana
 #Comment out url when working locally to resolve base urls correctly
-url:              http://oblongmana.com
+# url:              http://oblongmana.com
 
 # Owner/author information
 owner:

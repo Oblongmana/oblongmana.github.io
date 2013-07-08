@@ -4,6 +4,8 @@ title: "Pretty PageMessages"
 description: "A custom framework for use in Visualforce pages/controllers to replace the default system and styling"
 category: articles
 tags: [salesforce, visualforce, pagemessages, bootstrap, css]
+image:
+    thumb: posts/pageMessageSamples.png
 colorbar: salesforce
 comments: true
 ---

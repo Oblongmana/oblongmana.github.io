@@ -16,7 +16,8 @@
 # Concept from http://bergamini.org/computers/creating-favicon.ico-icon-files-with-imagemagick-convert.html
  
 CONVERT_CMD=`which convert`
-SRC_IMAGE=$1
+LOGO_SVG=$1
+FAV_SVG=$2
 PWD=`pwd`
  
 if [ -z $CONVERT_CMD ] || [ ! -f $CONVERT_CMD ] || [ ! -x $CONVERT_CMD ];
@@ -25,20 +26,35 @@ then
     exit;
 fi
  
-if [ -z $SRC_IMAGE ];
+if [ -z $FAV_SVG ];
 then
-    echo "You must supply a source image as the argument to this command."
+    echo "You must supply a favicon image as the 2nd argument to this command."
     exit;
 fi
  
-if [ ! -f $SRC_IMAGE ];
+if [ ! -f $FAV_SVG ];
 then
-    echo "Source image \"$SRC_IMAGE\" does not exist."
+    echo "Source image \"$FAV_SVG\" does not exist."
+    exit;
+fi
+
+if [ -z $LOGO_SVG ];
+then
+    echo "You must supply a logo image as the 1st argument to this command."
     exit;
 fi
  
+if [ ! -f $LOGO_SVG ];
+then
+    echo "Source image \"$LOGO_SVG\" does not exist."
+    exit;
+fi
+ 
+echo "Generating 400w site-logo"
+$CONVERT_CMD $LOGO_SVG -resize 400x247! -background none $PWD/images/site-logo.png
+
 echo "Generating square base image"
-$CONVERT_CMD $SRC_IMAGE -resize 256x256! -transparent white $PWD/favicon-256.png
+$CONVERT_CMD $FAV_SVG -resize 256x256! -transparent white $PWD/favicon-256.png
  
 echo "Generating various sizes for ico"
 $CONVERT_CMD $PWD/favicon-256.png -antialias -resize 16x16 $PWD/favicon-16.png
