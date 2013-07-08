@@ -3,7 +3,7 @@ description:      Making pancakes. Making bacon pancakes.
 logo:             site-logo.png
 disqus_shortname: oblongmana
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://oblongmana.com
+url:              http://oblongmana.com
 
 # Owner/author information
 owner:
@@ -20,6 +20,7 @@ owner:
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-42284973-1
 google_verify:      lhFALdqslbVT035aD2czmncrp2vFj9MFIDqyPaS6UCk
+twitter_default_img: twitter-default-img.png
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 #bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD   
 

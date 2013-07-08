@@ -48,6 +48,9 @@ $CONVERT_CMD $PWD/favicon-256.png -antialias -resize 128x128 $PWD/favicon-128.pn
 
 echo "Generating png alternative"
 cp $PWD/favicon-32.png $PWD/favicon.png
+
+echo "Generating media items"
+cp $PWD/favicon-64.png $PWD/twitter-default-img.png
  
 echo "Generating ico"
 #OLD OPTS that seem to mangle everything horribly :) -antialias -colors 256 -transparent white 
