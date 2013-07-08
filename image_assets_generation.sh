@@ -51,10 +51,10 @@ then
 fi
  
 echo "Generating 400w site-logo"
-$CONVERT_CMD $LOGO_SVG -resize 400x247! -background none $PWD/images/site-logo.png
+$CONVERT_CMD -background none $LOGO_SVG -resize 400x247!  $PWD/images/site-logo.png
 
 echo "Generating square base image"
-$CONVERT_CMD $FAV_SVG -resize 256x256! -transparent white $PWD/favicon-256.png
+$CONVERT_CMD -background none $FAV_SVG -resize 256x256! $PWD/favicon-256.png
  
 echo "Generating various sizes for ico"
 $CONVERT_CMD $PWD/favicon-256.png -antialias -resize 16x16 $PWD/favicon-16.png
