@@ -649,6 +649,60 @@ hr.colorbar-salesforce {
 hr.colorbar-accent {
   border-top: 5px solid #000000;
 }
+span.vertbar {
+  display: inline;
+  border-left: 4px solid;
+}
+span.vertbar.colorbar-salesforce {
+  border-left-color: #159cdc;
+}
+span.vertbar.colorbar-accent {
+  border-left-color: #000000;
+}
+span.vertbar.colorbar-homeautomation {
+  border-left-color: #00c759;
+}
+span.vertbar.colorbar-wearabletech {
+  border-left-color: #0ae5cf;
+}
+.badge {
+  padding: 1px 9px 2px;
+  font-size: 12.025px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: #999999;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+.badge:hover {
+  background-color: #010101;
+}
+.badge-salesforce {
+  background-color: #159cdc;
+}
+.badge-salesforce:hover {
+  background-color: #0c5a7f;
+}
+.badge-general {
+  background-color: #333333;
+}
+.badge-general:hover {
+  background-color: #000000, 20;
+}
+.badge-homeautomation {
+  background-color: #00c759;
+}
+.badge-homeautomation:hover {
+  background-color: #00612b;
+}
+.badge-wearabletech {
+  background-color: #0ae5cf;
+}
+.badge-wearabletech:hover {
+  background-color: #068377;
+}
 figure {
   margin: 0;
   padding-top: 10px;
@@ -2648,6 +2702,10 @@ body {
 }
 #main:after {
   clear: both;
+}
+#key {
+  padding-bottom: 15px;
+  text-align: center;
 }
 .hentry {
   *zoom: 1;

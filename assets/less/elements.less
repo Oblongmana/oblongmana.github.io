@@ -16,6 +16,74 @@ hr {
     }
 }
 
+// Vertical inline bars
+//---------------------
+span.vertbar {
+    display:inline;
+    border-left: 4px solid;
+    // Colorbars
+    &.colorbar-salesforce {
+        border-left-color: @salesforce-color;
+    }
+    &.colorbar-accent {
+        border-left-color: @accent-color;
+    }
+    &.colorbar-homeautomation {
+        border-left-color: @home-automation-color;
+    }
+    &.colorbar-wearabletech {
+        border-left-color: @wearable-tech-color;
+    }
+}
+
+// Subject badges
+//---------------------
+.badge { 
+    padding: 1px 9px 2px;
+    font-size: 12.025px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #999999;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+
+    &:hover { 
+        background-color: darken(@link-color, 20); 
+    }
+}
+
+.badge-salesforce {
+    background-color: @salesforce-color;
+    &:hover { 
+        background-color: darken(@salesforce-color, 20); 
+    }
+}
+
+.badge-general {
+    background-color: lighten(@accent-color,20);
+    &:hover { 
+        background-color: @accent-color, 20; 
+    }
+}
+
+.badge-homeautomation {
+    background-color: @home-automation-color;
+    &:hover { 
+        background-color: darken(@home-automation-color, 20); 
+    }
+}
+
+.badge-wearabletech {
+    background-color: @wearable-tech-color;
+    &:hover { 
+        background-color: darken(@wearable-tech-color, 20); 
+    }
+}
+
+
+
 // Figures and images
 // --------------------------------------------------
 

@@ -16,6 +16,7 @@ Interests include:
 * Wearable tech
 * Home automation
 * Salesforce.com development
+* Sublime Text 2 plugins
 * Heroku development (pt. using Flask)
 * Shiny web apps generally (and the less shiny APIs they expose)
 * Shiny things generally
