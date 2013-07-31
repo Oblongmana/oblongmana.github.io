@@ -26,6 +26,20 @@ I'd recommend downloading the gist and trying it out in a dev org against any ol
     <i class="icon-github"></i> Click here to download the Gist discussed in this article
 </a>
 
+
+## Prefer to Skip Ahead? ##
+
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+- [Usage](#usage)
+    - [In your Apex code](#in-your-apex-code)
+    - [In your Visualforce pages](#in-your-visualforce-pages)
+- [Minor Gotchas](#minor-gotchas)
+    - [Messages added in a Controller Constructor](#messages-added-in-a-controller-constructor)
+    - [Dismiss/Close buttons](#dismissclose-buttons)
+    - [Styling things yourself](#styling-things-yourself)
+
+
 ## Dependencies ##
 
 {% highlight text %}
