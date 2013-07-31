@@ -66,7 +66,7 @@ echo "Generating png alternative"
 cp $PWD/favicon-32.png $PWD/favicon.png
 
 echo "Generating media items"
-cp $PWD/favicon-64.png $PWD/twitter-default-img.png
+cp $PWD/favicon-64.png $PWD/images/twitter-default-img.png
  
 echo "Generating ico"
 #OLD OPTS that seem to mangle everything horribly :) -antialias -colors 256 -transparent white 
