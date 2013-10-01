@@ -1,0 +1,4 @@
+{
+            "text" : "<a href=\"{{ post.url }}\">{{ post.title }}</a><br/>{{ post.date | date: "%-d %B %Y" }} {{ post.description }}",
+            "type" : "0"
+        }
