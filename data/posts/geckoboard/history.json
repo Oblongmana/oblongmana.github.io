@@ -1,0 +1,7 @@
+---
+---
+[
+    {% for post in site.posts %} 
+    {% include post_gecko_listformat.json %}{%if forloop.last == false %},{% endif %}
+    {% endfor %}
+]
