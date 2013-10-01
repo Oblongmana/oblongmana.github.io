@@ -1,24 +1,34 @@
 ---
 ---
-{
-    "monthCounts" : [
-        {% assign mthYr = '' %}
-        {% assign mthYrCount = '0' %}
-        {% for post in site.posts %} 
-            {% assign currMthYr = post.date | date: "%m/%Y"%}
-            {% if mthYr == '' %}
-                {% assign mthYr = currMthYr %}
-            {% endif %}
-            {% if currMthYr != mthYr %}
-        { "{{ mthYr }}" : "{{ mthYrCount }}" },
-                {% assign mthYr = currMthYr %}
-                {% assign mthYrCount = '1' %}
-            {% else %}
-                {% capture mthYrCount %}{{ mthYrCount | plus:1 }}{% endcapture %}
-            {% endif %}
-        {% endfor %}
-        {% if site.posts.size != '0' %}
-        { "{{ currMthYr }}" : "{{ mthYrCount }}" }
+[
+    {% assign mthYr = '' %}
+    {% assign mthYrCount = '0' %}
+    {% for post in site.posts %} 
+        {% assign currMthYr = post.date | date: "%B %Y"%}
+        {% if mthYr == '' %}
+            {% assign mthYr = currMthYr %}
         {% endif %}
-    ]
-}
+        {% if currMthYr != mthYr %}
+        {
+            "title": {
+                "text": "{{ currMthYr }}",
+                "highlight": true
+            },
+            "description": "{{ mthYrCount }} posts this month"
+        },
+            {% assign mthYr = currMthYr %}
+            {% assign mthYrCount = '1' %}
+        {% else %}
+            {% capture mthYrCount %}{{ mthYrCount | plus:1 }}{% endcapture %}
+        {% endif %}
+    {% endfor %}
+    {% if site.posts.size != '0' %}
+    {
+        "title": {
+            "text": "{{ currMthYr }}",
+            "highlight": true
+        },
+        "description": "{{ mthYrCount }} posts this month"
+    }
+    {% endif %}
+]
