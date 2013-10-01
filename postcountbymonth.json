@@ -1,0 +1,24 @@
+---
+---
+"months" : [
+    {% assign mthYr = '' %}
+    {% assign mthYrCount = '0' %}
+    {% for post in site.posts %} 
+        {% assign currMth = post.date | date: "%d" %}
+        {% assign currYr = post.date | date: "%Y" %}
+        {% assign currMthYr = currMth | append:'/' | append:currYr %}
+        {% if mthYr == '' %}
+            {% assign mthYr = currMthYr %}
+        {% endif %}
+        {% if currMthYr != mthYr %}
+            "{{ mthYr }}" : "{{ mthYrCount }}",
+            {% assign mthYr = currMthYr %}
+            {% assign mthYrCount = '1' %}
+        {% else %}
+            {% capture mthYrCount %}{{ mthYrCount | plus:1 }}{% endcapture %}
+        {% endif %}
+    {% endfor %}
+    {% if site.posts.size != '0' %}
+        "{{ currMthYr }}" : "{{ mthYrCount }}"
+    {% endif %}
+]
