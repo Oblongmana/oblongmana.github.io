@@ -1,4 +1,4 @@
 {
-            "text" : "<a href=\"{{ post.url }}\">{{ post.title }}</a><br/>{{ post.date | date: "%-d %B %Y" }} {{ post.description }}",
+            "text" : "<dl><dt><a href=\"{{ post.url }}\">{{ post.title }}</a></dt><dd><p style=\"font-size: 12px;\">{{ site.owner.name }} on {{ post.date | date: "%-d %B %Y" }}</p><p style=\"font-size: 14px;\">{{ post.description }}</p></dd></dl>",
             "type" : "0"
         }
