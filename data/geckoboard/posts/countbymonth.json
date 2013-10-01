@@ -11,7 +11,7 @@
         {% if currMthYr != mthYr %}
         {
             "title": {
-                "text": "{{ currMthYr }}",
+                "text": "{{ mthYr }}",
                 "highlight": true
             },
             "description": "{{ mthYrCount }} posts this month"
