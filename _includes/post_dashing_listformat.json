@@ -1,0 +1,4 @@
+{
+            "label" : "{{ post.title }}",
+            "value" : "{{ site.owner.name | escape }} on {{ post.date | date: "%-d %B %Y" }} : {{ post.description | escape }}"
+        }
