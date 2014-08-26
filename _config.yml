@@ -1,5 +1,5 @@
 title:            Oblongmana
-description:      Making pancakes. Making bacon pancakes.
+description:      Force.com Dev, and other things too
 logo:             site-logo.png
 disqus_shortname: oblongmana
 #Comment out url when working locally to resolve base urls correctly
@@ -22,7 +22,7 @@ google_analytics:   UA-42284973-1
 google_verify:      lhFALdqslbVT035aD2czmncrp2vFj9MFIDqyPaS6UCk
 twitter_default_img: twitter-default-img.png
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-#bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD   
+#bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD
 
 # Links to include in top navigation
 # For external links add external: true
@@ -54,7 +54,7 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
