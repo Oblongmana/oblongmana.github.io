@@ -2,13 +2,13 @@
 layout: page
 permalink: /articles/index.html
 title: Articles
-description: "An archive of posts sorted by date."
+description: "An archive of articles sorted by date."
 colorbar: accent
 ---
 
 {% include key.html %}
 
-{% for post in site.posts %} 
+{% for post in site.categories.articles %}
 <ul class="post-list">
   <li><article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost"><span class="vertbar colorbar-{% if post.colorbar %}{{ post.colorbar }}{% else %}accent{% endif %}"></span><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
 </ul>

@@ -31,6 +31,8 @@ links:
     url: /about
   - title: Articles
     url: /articles
+  - title: Release Notes
+    url: /release-notes
   # - title: Theme Setup
   #   url: /theme-setup
   # - title: Made Mistakes
