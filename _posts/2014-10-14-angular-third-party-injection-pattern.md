@@ -1,16 +1,13 @@
 ---
 layout: post
-title: "Angular - 3rd Party Injection"
-description: "Convert third party libraries into Angular services quickly, with minimal pollution"
+title: "Angular - 3rd Party Library Injection"
+excerpt: "Convert third party libraries into Angular services quickly, with minimal pollution"
 category: articles
 tags: [angular,third-party libraries,injection]
-image:
-    thumb: posts/pageMessageSamples.png
-colorbar: salesforce
 comments: true
 ---
 
-Angular developers, often find themselves needing to use a third party library in a hurry, and either the third party library is not itself Angular-ready, you can't find an Angular-wrapped version of it on github/bower/whatever, or the Angular-wrapped version you find is unsuitable for your purposes, out of date, or buggy.
+Angular developers often find themselves needing to use a third party library in a hurry, and either the third party library is not itself Angular-ready, you can't find an Angular-wrapped version of it on github/bower/whatever, or the Angular-wrapped version you find is unsuitable for your purposes, out of date, or buggy.
 
 In these cases, it's pretty tempting to just add the library to your page scripts, and either tell jshint the library is a global and just use it everywhere in your code (gross), or inject `$window` into anything you want to use that third party library (gross, but slightly less so).
 

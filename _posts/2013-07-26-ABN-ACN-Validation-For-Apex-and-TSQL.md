@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Validating ABNs and ACNs"
-description: "Validating ABNs and ACNs in both Salesforce Apex and T-SQL"
+excerpt: "Validating ABNs and ACNs in both Salesforce Apex and T-SQL"
 category: articles
 tags: [salesforce, apex, tsql, ABN, ACN, ARBN, validation]
-colorbar: salesforce
 comments: true
 ---
 

@@ -3,5 +3,5 @@
             "text": "<a href=\"{{ post.url }}\">{{ post.title }}</a>",
             "highlight": true
         },
-        "description": "{{ post.date | date: "%-d %B %Y" }} {{ post.description }}"
+        "description": "{{ post.date | date: "%-d %B %Y" }} {{ post.excerpt }}"
     }

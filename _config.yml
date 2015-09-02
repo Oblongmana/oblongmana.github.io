@@ -1,52 +1,20 @@
-title:            Oblongmana
-description:      Force.com Dev, and other things too
-logo:             site-logo.png
-disqus_shortname: oblongmana
-#Comment out url when working locally to resolve base urls correctly
-url:              http://oblongmana.com
+# Site wide configuration
 
-# Owner/author information
-owner:
-  name:           James Hill
-  avatar:         0ca116552960ee81fc5d01a6cfab2705.png
-  email:          Oblongmana@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        "oblongmana"
-  github:         "oblongmana"
-  linkedin:       "jameshillnz"
-  # For Google Authorship https://plus.google.com/authorship
-  #google_plus:    "https://plus.google.com/115372416252891351149"
+title:            James Hill [.io]
+locale:           en_GB
+# url:              http://jameshill.io
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:   UA-42284973-1
-google_verify:      lhFALdqslbVT035aD2czmncrp2vFj9MFIDqyPaS6UCk
-twitter_default_img: twitter-default-img.png
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-#bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: About
-    url: /about
-  - title: Articles
-    url: /articles
-  - title: Release Notes
-    url: /release-notes
-  # - title: Theme Setup
-  #   url: /theme-setup
-  # - title: Made Mistakes
-  #   url: http://mademistakes.com
-  #   external: true
+# Jekyll configuration
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Pacific/Auckland
-future:      true
-pygments:    true
+permalink:   /:categories/:title/
 markdown:    kramdown
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
 
 kramdown:
   auto_ids: true
@@ -55,12 +23,39 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+
+# Site owner
+owner:
+  name: James Hill
+  avatar: http://www.gravatar.com/avatar/0ca116552960ee81fc5d01a6cfab2705.png
+  bio: "Salesforce developer in NZ with a more than passing interest in the quantified self, diabetic tech, and home automation"
+  email: me@jameshill.io
+  disqus-shortname: oblongmana
+  twitter: Oblongmana
+  facebook: #username
+  google:
+    plus: #username
+    analytics: UA-42284973-1
+    verify:    lhFALdqslbVT035aD2czmncrp2vFj9MFIDqyPaS6UCk
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: Oblongmana
+  stackoverflow: 1575561/james-hill
+  linkedin: jameshillnz
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "so-simple-theme.sublime-project", "so-simple-theme.sublime-workspace"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
