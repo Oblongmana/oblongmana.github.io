@@ -2,7 +2,7 @@
 
 title:            James Hill [.io]
 locale:           en_GB
-# url:              http://jameshill.io
+# url:              https://jameshill.io
 
 
 # Jekyll configuration
@@ -27,8 +27,8 @@ kramdown:
 # Site owner
 owner:
   name: James Hill
-  avatar: http://www.gravatar.com/avatar/0ca116552960ee81fc5d01a6cfab2705.png
-  bio: "Salesforce developer in NZ with a more than passing interest in the quantified self, diabetic tech, and home automation"
+  avatar: https://www.gravatar.com/avatar/0ca116552960ee81fc5d01a6cfab2705.png
+  bio: "Salesforce developer in NZ"
   email: me@jameshill.io
   disqus-shortname: oblongmana
   twitter: Oblongmana
