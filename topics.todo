@@ -3,3 +3,5 @@ Poss Topics?:
  ☐ Modals on Visualforce pages
  ☐ Salesforce, Sublime, Mavensmate and git?; Salesforce dev environment?; Streamlining Salesforce dev?
  ☐ Org Default Custom Settings and Managed Packages
+ ☐ Preventing google maps from grabbing focus (this is gonna be tough to come up with a title for)
+ ☐ Google maps - simple map reuse, and pitfalls (mostly just the issue with events - need to specifically unbind when reusing, otherwise it seems to nuke important built in google events, and give you grey areas at the edge of maps)
